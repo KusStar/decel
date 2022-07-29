@@ -1,5 +1,7 @@
 # decel
 
+[![asciicast](https://asciinema.org/a/iTSgJOYEP6cp8Hd8A8cFE9l8u.svg)](https://asciinema.org/a/iTSgJOYEP6cp8Hd8A8cFE9l8u)
+
 A CLI for Deno Deploy
 
 Better UX feels like [vercel/cli](https://github.com/vercel/vercel)
