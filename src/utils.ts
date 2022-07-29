@@ -37,6 +37,14 @@ export const showHelp = () => {
 
   ${colors.gray('Options:')}
     -h, --help      Show help message
+    
+    --token         Deno Deploy Access Token
+    --prod          Deploy in production mode
+    --static        Deploy with static files
+
+    [ls]
+    --show-dev      Show dev domain in ls table
+
 
   ${colors.gray('Examples:')}
 

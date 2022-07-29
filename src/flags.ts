@@ -5,6 +5,7 @@ interface Flags {
   prod: boolean
   showDev: boolean
   static: boolean
+  token?: string
 }
 
 const { flags, unknown } = parseFlags<Flags>(Deno.args, {
@@ -19,14 +20,17 @@ const { flags, unknown } = parseFlags<Flags>(Deno.args, {
       type: 'boolean',
       optionalValue: true,
       default: false,
-      standalone: true
     },
     {
       name: 'show-dev',
       type: 'boolean',
       optionalValue: true,
       default: false,
-      standalone: true
+    },
+    {
+      name: 'token',
+      type: 'string',
+      optionalValue: true,
     },
     {
       name: 'static',
