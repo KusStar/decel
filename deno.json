@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "watch": "deno run --allow-all --watch ./cli.ts",
+    "dev": "deno run --allow-all ./cli.ts"
+  }
+}
