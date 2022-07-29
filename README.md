@@ -2,7 +2,7 @@
 
 [![asciicast](https://asciinema.org/a/iTSgJOYEP6cp8Hd8A8cFE9l8u.svg)](https://asciinema.org/a/iTSgJOYEP6cp8Hd8A8cFE9l8u)
 
-A CLI for Deno Deploy
+A CLI for [Deno Deploy](https://dash.deno.com/)
 
 Better UX feels like [vercel/cli](https://github.com/vercel/vercel)
 
@@ -13,7 +13,7 @@ Better UX feels like [vercel/cli](https://github.com/vercel/vercel)
 1. Install `decel` with Deno
 
   ```shell
-  deno install -A --unstable --no-check https://deno.land/x/decel@v1.0.0/decel.ts
+  deno install -A --unstable --no-check https://deno.land/x/decel@v1.0.2/decel.ts
   ```
 
 2. Get a Access Token from [Deno Deploy Dash](https://dash.deno.com/account#access-tokens)
